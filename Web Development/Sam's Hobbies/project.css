@@ -1,0 +1,44 @@
+body {
+    background-color: #f3feff;
+}
+
+p {
+    color: #5e4032;
+}
+
+ul {
+    color: #5e4032;
+}
+
+h2 {
+    color: #40261a;
+}
+
+.content-box {
+    background-color: #ffedf3;
+    padding: 20px;
+    border: 2px solid #ff8ab1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.standard_content-box {
+    height: 650px;
+    width: 700px;
+    position: relative;
+    top: 10px;
+    background-color: #f9ebff;
+    padding: 20px;
+    border: 2px solid #fc31ff;
+}
+
+.special_week {
+    float: right;
+    background-color: #f9ebff;
+    padding: 20px;
+    border: 2px solid #fc31ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    display: block;
+    margin: 0 auto;
+}
