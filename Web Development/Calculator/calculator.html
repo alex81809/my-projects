@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+
+<body>
+    <center>
+        <!--Title-->
+        <h2 outline:>My Calculator</h2>
+
+        <!-- Calculator Structure -->
+        <div class="calculator">
+
+            <!--Screen-->
+            <input type="text" id="display" class="screen">
+
+            <!--Buttons-->
+            <div class="buttons">
+                <button class="button1" onclick="appendNumber('7')">7</button>
+                <button class="button1" onclick="appendNumber('8')">8</button>
+                <button class="button1" onclick="appendNumber('9')">9</button>
+                <button class="button operator" onclick="appendOperation('/')">/</button>
+                <br>
+
+                <button class="button1" onclick="appendNumber('4')">4</button>
+                <button class="button1" onclick="appendNumber('5')">5</button>
+                <button class="button1" onclick="appendNumber('6')">6</button>
+                <button class="button operator" onclick="appendOperation('*')">*</button>
+                <br>
+
+                <button class="button1" onclick="appendNumber('1')">1</button>
+                <button class="button1" onclick="appendNumber('2')">2</button>
+                <button class="button1" onclick="appendNumber('3')">3</button>
+                <button class="button operator" onclick="appendOperation('-')">-</button>
+                <br>
+
+                <button class="button clear" onclick="clearDisplay()">C</button>
+                <button class="button1" onclick="appendNumber('0')">0</button>
+                <button class="button equal" onclick="calculate()">=</button>
+                <button class="button operator" onclick="appendOperation('+')">+</button>
+                <br>
+            </div>
+        </div>
+    </center>
+    <!--End-->
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
