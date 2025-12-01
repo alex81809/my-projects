@@ -1,0 +1,99 @@
+/* Imported font for Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');
+
+
+/* Internal CSS for body and header */
+body {
+    background-image: url(https://i.pinimg.com/736x/82/e2/cb/82e2cb015e9e621ac73fa58579d81604.jpg);
+    font-family: Roboto;
+    background-size: 500px;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    color: #c8a0ad;
+}
+
+h2 {
+    color: darkcyan;
+}
+
+marquee {
+    background-color: #f8ecef;
+    color: #d1b3b3;
+    border: 3px solid #c8a0ad;
+    border-radius: 5px;
+}
+
+.marquee-img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+/* Internal CSS for buttons */
+button {
+    vertical-align: middle;
+    background-color: #F6E9E9;
+    border: 3px solid #c8a0ad;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Monsterrat';
+    color: #b38e9a;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    border: 3px solid #c8a0ad46;
+    width: 95px;
+    height: 45px;
+    color: #ebd4db;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.button-img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* Internal CSS for tables */
+table,
+td {
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: #F6E9E9;
+    border-radius: 5px;
+    border: 2px solid #c8a0ad;
+}
+
+table {
+    font-family: 'Monsterrat';
+}
+
+td {
+    font-size: 12px;
+    color: #b38e9a;
+}
+
+th {
+    color: #b38e9a;
+    font-family: 'Monsterrat';
+}
+
+img {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+/* Internal CSS for form */
+.contact {
+    font-size: 15px;
+}
