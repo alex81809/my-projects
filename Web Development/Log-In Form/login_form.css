@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+}
+
+.form {
+    margin-top: 100px;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgb(71, 98, 118);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(91, 127, 154);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+label {
+    color: rgb(91, 127, 154);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+button {
+    color: rgb(91, 127, 154);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(217, 229, 237);
+    border: 2px solid rgb(71, 98, 118);
+    margin-top: 10px;
+}
