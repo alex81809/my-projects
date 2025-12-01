@@ -3,7 +3,7 @@ Hello, this is a showcase of all the projects I have made, I used Python and Jav
 
 
 ## Web Development
-Calculator 
+**Calculator**
 Link: https://github.com/alex81809/my-projects/tree/main/Web%20Development/Calculator <br>
 Preview: 
 asdasdasdasd
