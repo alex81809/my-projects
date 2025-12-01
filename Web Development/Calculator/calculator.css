@@ -1,0 +1,112 @@
+/* Background and Text*/
+body {
+    background-image: url(https://cdn.japan-forward.com/wp-content/uploads/2024/06/Meto-the-Northern-Lake-Farm-Cat-003-1024x724.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1550px;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*Calculator Structure*/
+.calculator {
+    width: 300px;
+    height: 420px;
+    background-image: linear-gradient(to top right, #a7a7a7, #d4d4d4, #a7a7a7);
+    border-radius: 5px;
+    border: solid 3px rgb(39, 39, 39);
+    padding: 30px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.342);
+}
+
+.screen {
+    width: 275px;
+    height: 100px;
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(104, 6%, 38%);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 2px hsl(104, 6%, 38%);
+    background-color: hsl(104, 18%, 74%);
+    border-radius: 8px;
+}
+
+/* Buttons */
+.button1 {
+    background-color: #6d9fb6;
+    color: #2a4a58;
+    border: solid 2px #3e6273;
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.button.clear {
+    background-color: #ff9d00;
+    color: #8a5500;
+    border: solid 2px #b56f00;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button.equal {
+    background-color: #ff9d00;
+    color: #8a5500;
+    border: solid 2px #b56f00;
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.button.operator {
+    background-color: #577c8e;
+    color: #1b343e;
+    border: solid 2px #22363f;
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    background-color: #92c6df;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.167);
+}
+
+.button.equal:hover {
+    background-color: #ffb43c;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.167);
+}
+
+.button.clear:hover {
+    background-color: #ffb43c;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.167);
+}
+
+.button.operator:hover {
+    background-color: #759db1;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.167);
+}
