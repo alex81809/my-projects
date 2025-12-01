@@ -1,5 +1,5 @@
 # My Projects 
-Hello, this is a showcase of all the projects I have made, I used Python and JavaScript for these.
+Hello, this is a showcase of all the projects I have made troughout 6 months of learning, I used Python and JavaScript for these.
 
 
 ## Web Development
