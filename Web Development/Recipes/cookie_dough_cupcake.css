@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');
+
+/*Body and Header*/
+body {
+    background-image: url(https://i.pinimg.com/736x/82/e2/cb/82e2cb015e9e621ac73fa58579d81604.jpg);
+    font-family: Roboto;
+    background-size: 500px;
+}
+
+h1 {
+    font-family: Dancing Script;
+    color: #c8a0ad;
+}
+
+h3 {
+    color: #af8592;
+}
+
+h5 {
+    color: #af8592;
+}
+
+p {
+    color: #c8a0ad;
+}
+
+/* Marquee */
+marquee {
+    background-color: #f8ecef;
+    color: #d1b3b3;
+    border: 3px solid #c8a0ad;
+    border-radius: 5px;
+}
+
+.marquee-img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+/* Internal CSS for tables */
+table,
+td {
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: #F6E9E9;
+    border-radius: 5px;
+    border: 2px solid #c8a0ad;
+}
+
+table {
+    font-family: 'Monsterrat';
+}
+
+td {
+    font-size: 12px;
+    color: #b38e9a;
+}
+
+th {
+    color: #b38e9a;
+    font-family: 'Monsterrat';
+}
+
+/* Image */
+.cupcake-image {
+    width: 250px;
+    border: 5px solid #b38e9a;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #F6E9E9;
+    border: 3px solid #c8a0ad;
+    width: 253px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Monsterrat';
+    color: #b38e9a;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+button:hover {
+    background-color: white;
+    border: 3px solid #c8a0ad46;
+    width: 255px;
+    height: 45px;
+    color: #ebd4db;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.button-img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Ingredients and Instructions */
+.hi-parent {
+    display: flex;
+}
+
+.hi-section {
+    position: relative;
+    z-index: 1;
+    width: 1150px;
+    height: 1900px;
+    padding: 40px;
+    bottom: 709px;
+    left: 300px;
+    margin-top: 16px;
+    background-color: #fffdf9;
+    padding: 20px;
+    border: 2px solid #b38e9a;
+}
+
+/* Ingredients Tables */
+.ingredient-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.ingredient-card {
+    width: 350px;
+    border: 2px solid #27374D;
+    background-color: #fff3f3;
+}
+
+.ingredient-image {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #27374D;
+}
+
+.ingredient-body {
+    padding: 10px 20px;
+}
+
+.ingredient-main {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    color: #b99da6;
+}
+
+b {
+    color: #b38e9a;
+}
